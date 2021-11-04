@@ -37,9 +37,9 @@ v2021.06.01
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>				  
 	    <extension point="xbmc.addon.repository" name="Denham Repository">
-            <info compressed="false">https://raw.githubusercontent.com/DenhamPerformance/repository.denham/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/DenhamPerformance/repository.denham/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/DenhamPerformance/repository.denham/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/DenhamPerformance/repository.denham/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/DenhamPerformance/repository.denham/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/DenhamPerformance/repository.denham/main/repo/zips/</datadir>
         <dir>
 			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
