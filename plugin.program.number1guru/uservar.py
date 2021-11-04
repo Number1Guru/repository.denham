@@ -14,8 +14,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR blue][B]Number1Guru WIZARD[/B][/COLOR]'
-BUILDERNAME    = '[COLOR white][B]Number1guru[/B][/COLOR]'
-EXCLUDES       = [ADDON_ID, '']
+BUILDERNAME = 'Number1Guru Wizard '
+EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it.
 BUILDFILE = 'http://number1guru.com/builds/wizard.txt'
 # How often you would like it to check for build updates in days
@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme: [/COLOR] [COLOR {color2}]{{}}[/COLOR]'
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT        = 'Thank you for choosing Number1Guru\r\n\r\nContact me Not Giving that Info Out hahaha'
+CONTACT = 'Thank you for choosing The Number1Guru Wizard Pls Enjoy'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = 'http://'
 CONTACTFANART = 'http://_'
@@ -96,7 +96,7 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.denhamperformance
+REPOID = 'repository.openwizard'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML = 'https://'
 # Url to folder zip is located in
@@ -114,7 +114,7 @@ NOTIFICATION = ''
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR FF36ff00][B]#1 Guru[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR FF36ff00][B]Number1Guru[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
