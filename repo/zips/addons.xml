@@ -967,4 +967,40 @@ v1.4.0 (2021-07-10)
 	</extension>
 </addon>
 
+<addon id="script.number1guruxxxHE.artwork" version="2018.05.25" name="Number1Guru High End XXX Artwork" provider-name="Number1Guru">
+	<extension point="kodi.resource.images" compile="false" type="images" />
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+			<provides>images</provides>
+		<summary>Themes for the Number1Guru XXX High End Builds</summary>
+		<description></description>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
+<addon id="script.number1guru.artwork" version="2019.03.24" name="Number1Guru Artwork" provider-name="Number1Guru">
+	<extension point="kodi.resource.images" compile="false" type="images" />
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+			<provides>images</provides>
+		<summary>Themes for the Number1Guru Builds</summary>
+		<description></description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
 </addons>
